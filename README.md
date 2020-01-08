@@ -1,6 +1,6 @@
 # Advanced networking
 
-## ip address (internet)
+## ip address (public --> internet)
 127.0.0.1 ---> this is the loopback address or home address
 01111111.00000000.00000000.00000001 ---> in binary is 127.0.0.1 (This is how the computer reads the ip address in binary)
 (an ip address in made up of four parts with eight 0s or 1s) --> ipv4
@@ -10,7 +10,7 @@ So an ip address is owned by isp (internet server provider)
   - eg A company has 1 ip address all employees have private addresses for their laptops/phones/electronic devices
 So people use private addresses
 
-## Private address (works locally)
+## Private ip address (works locally)
 - 10.0.0.1 class A           ----> (few networks, massive number of computers)
 - 172.16.0.0 class B
 - 192.168.0.0 class C       ----> (big networks, small number of computers)
@@ -50,3 +50,5 @@ therefore 10.0.1.1 would be the first computers
 - When your computer (private address) makes a request
   - request goes to default gateway, it takes traffic and swaps with the actual ip address and makes the request to the internet
   - when it gets response it remember the private address ip of the computer and send it to this computer
+- To connect to internet from private address default gateway acts as a middleman
+  - User request ie from computer (private address) --> default gateway --> swaps to public ip address (sends request to internet) --> internet --> default gateway (receives response from internet) --> computer/private address (default gateway sends response to the correct private address/computer)
