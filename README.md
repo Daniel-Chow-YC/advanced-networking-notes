@@ -25,13 +25,13 @@ So people use private addresses
 ## Using the subnet mask
 - Subnet mask is needed to be able to differentiate which part of ip address belongs to the network and which part belongs the the host or computer
 - If the network part of ip address is same they belong to same subnet
-- An ip address is made up of 2 parts ---> host and network
+- An ip address is made up of 2 parts ---> network and host
 - For an ip address all the 1s belong to network, all 0s belong to host
 
 ## CIDR (classless inter-domain routing)
-10.0.0.0/8        -----> (means first 8 bits belong to network ie first part network)
-10.0.0.0/16       -----> (means first 16 bits belong to network ie first 2 parts network)
-10.0.0.0/24       -----> (means first 24 bits belong to network ie first 3 parts are network)
+10.0.0.0/8        -----> (means first 8 bits belong to network ie first part network, last 3 parts host)
+10.0.0.0/16       -----> (means first 16 bits belong to network ie first 2 parts network, last 2 parts host)
+10.0.0.0/24       -----> (means first 24 bits belong to network ie first 3 parts are network, last part host)
 
 aws vpc Daniel using 10.0.0.0/16 create subnets
 10.0.1.0/24
