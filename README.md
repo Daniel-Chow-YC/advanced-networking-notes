@@ -16,14 +16,16 @@ So people use private addresses
 - 192.168.0.0 class C       ----> (big networks, small number of computers)
 
 ## subnets
-- May be used to break network into smaller chunkes, firewall or router used to segment networks from eachother
-- Whenever you have a subnet traffic will no longer flow normally
+- May be used to break network into smaller chunks, firewall or router used to segment networks from each other
+- Whenever you have a subnet, traffic will no longer flow normally
 - Analogy of the hotel
+  - Ie if you live on floor 1 (one subnet) your fob can only access floor 1. Therefore, you can only directly talk to (knock on the door of) people on floor 1.
+  - If you want to talk to someone on another floor then you need to pass a message to the receptionist (router or default gateway) to deliver it
 - For all subnets need Default Gateway (Default Gateway acts as receptionist in hotel analogy)
 - Whenever you have 2 computers in different subnets you need a router or a default gateway
 
 ## Using the subnet mask
-- Subnet mask is needed to be able to differentiate which part of ip address belongs to the network and which part belongs the the host or computer
+- Subnet mask is needed to be able to differentiate which part of ip address belongs to the network and which part belongs to the host or computer
 - If the network part of ip address is same they belong to same subnet
 - An ip address is made up of 2 parts ---> network and host
 - For an ip address all the 1s belong to network, all 0s belong to host
