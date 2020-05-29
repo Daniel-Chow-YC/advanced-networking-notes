@@ -281,7 +281,7 @@ Private IP Address Range:
 - When a packet with these properties come into the router then do the special translation
 
 - Eg when receiving a message from the public internet
-  - From the sender on an external network: The destination  of the message is set to the public IP of the receiver's router (with the appropriate port number)
+  - From the sender on an external network: The destination socket of the message is set to the public IP of the receiver's router (with the appropriate port number)
   - When the message is received by the router the destination socket is swapped out to the private IP of the intended device (and with the appropriate port number)
 
 #### ACLs (Access Control Lists)
