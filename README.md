@@ -139,6 +139,8 @@ Address Type:      Network            Host            Broadcast
 ````
 [![addressing-example-1-1024x576.jpg](https://i.postimg.cc/L5ptNh0V/addressing-example-1-1024x576.jpg)](https://postimg.cc/Q9fKMNDB)
 
+![alt text](https://i.pinimg.com/originals/d1/7e/47/d17e47d5c7561f32b7a5d6c0788ca5ca.jpg)
+
 ### CIDR Notation
 - The CIDR notation number represents the number of bits (1's) in the binary subnet mask. (This represents the network portion.)
 [![Screenshot-25.png](https://i.postimg.cc/q7Z0s3q9/Screenshot-25.png)](https://postimg.cc/XZFT3Xw8)
